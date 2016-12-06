@@ -4,10 +4,13 @@ shack  = require("kit/lib/shack")
 state  = require("kit/lib/state")
 konami = require("kit/lib/konami")
 bump   = require("kit/lib/bump")
+uare   = require("kit/lib/uare")
 
 world  = bump.newWorld()
 
 function love.run()
+  io.stdout:setvbuf("no")
+
   local dt = 0
 
   local update_timer = 0
