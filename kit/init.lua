@@ -5,6 +5,7 @@ state  = require("kit/lib/state")
 konami = require("kit/lib/konami")
 bump   = require("kit/lib/bump")
 uare   = require("kit/lib/uare")
+gamera = require("kit/lib/gamera")
 
 world  = bump.newWorld()
 
